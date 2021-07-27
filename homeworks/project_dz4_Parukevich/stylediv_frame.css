@@ -1,0 +1,15 @@
+div {
+    background:
+    url('t_right_tr.png') no-repeat top right,
+    url('t_left_tr.png') no-repeat top left,
+    url('row_middle.png') repeat-x top,
+    url('b_right1.png') no-repeat bottom right,
+    url('td_middle.png') repeat-y right,
+    url('b_left.png') no-repeat bottom left,
+    url('row_middle.png') repeat-x bottom,
+    url('td_middle.png') repeat-y left;
+    text-align: center;
+    padding: 40px;
+    font-size: 2vh;
+    
+}
