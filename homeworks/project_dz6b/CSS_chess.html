@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>*** unnamed text ***</title>
+    </head>
+    <body>
+        <style>
+            table.CHESS
+            {
+                border-collapse: collapse;
+            }
+
+            table.CHESS td
+            {
+                width: 50px;
+                height: 50px;
+                border: solid gray 1px;   
+            }
+            table.CHESS tr:first-of-type {
+                background-color: green; 
+            } 
+            table.CHESS tr:first-of-type td {
+                height: 10px;
+            }
+  /*top border*/
+            table.CHESS tr>td:first-child {
+                background-color:green;
+                width: 10px;
+            }
+  /*left border*/
+            table.CHESS tr>td:last-child {
+                background-color:green;  
+                width: 10px;
+            }
+  /*right border*/
+            table>tbody> tr+tr>td+td:nth-of-type(odd) {
+                background-color:black;
+            } 
+            table>tbody>tr+tr+tr>td+td:nth-of-type(even) {
+                background-color: black;
+            } 
+            table>tbody> tr+tr+tr>td+td:nth-of-type(odd) {
+                background-color: white;
+            }
+            table>tbody> tr+tr+tr+tr>td+td:nth-of-type(odd){
+                background-color: black;
+            }
+            table>tbody> tr+tr+tr+tr>td+td:nth-of-type(even) {
+                background-color: white;
+            } 
+            table>tbody> tr+tr+tr+tr+tr>td+td:nth-of-type(even){
+                background-color:black;
+                    }
+            table>tbody> tr+tr+tr+tr+tr>td+td:nth-of-type(odd) {
+                background-color:white;
+            }
+            table>tbody> tr+tr+tr+tr+tr+tr>td+td:nth-of-type(odd){
+                background-color: black;
+            }
+            table>tbody> tr+tr+tr+tr+tr+tr>td+td:nth-of-type(even){
+                background-color:white;
+            }
+            table>tbody> tr+tr+tr+tr+tr+tr+tr>td+td:nth-of-type(even){
+                background-color:black;
+            }
+            table>tbody> tr+tr+tr+tr+tr+tr+tr>td+td:nth-of-type(odd){
+                background-color: white;
+            }
+            table>tbody> tr+tr+tr+tr+tr+tr+tr+tr>td+td:nth-of-type(odd){
+                background-color: black;
+            }
+            table>tbody> tr+tr+tr+tr+tr+tr+tr+tr>td+td:nth-of-type(even){
+                background-color: white;
+            }
+            table>tbody> tr+tr+tr+tr+tr+tr+tr+tr+tr>td+td:nth-of-type(even){
+                background-color: black;
+            } 
+            table>tbody> tr+tr+tr+tr+tr+tr+tr+tr+tr>td+td:nth-of-type(odd){
+                background-color: white;
+            } 
+            table>tbody> tr+tr+tr+tr+tr+tr+tr+tr+tr+tr>td+td:nth-of-type(odd){
+                background-color: green;      
+      /*bottom border*/
+            }
+            table>tbody> tr+tr+tr+tr+tr+tr+tr+tr+tr+tr>td+td:nth-of-type(even){
+                 background-color: green;      
+      /*bottom border*/      
+            }
+            table.CHESS tr:last-of-type td {        
+                height: 10px;
+            }
+        </style>
+        <table class='CHESS'>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+        </table>
+</body>
+</html>
