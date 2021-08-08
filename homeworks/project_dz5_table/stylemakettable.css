@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+table {
+    width:100%;
+    border-spacing: 0;
+    padding: 0;
+}
+thead {
+    text-align: center;
+    background-color: rgb(7, 155, 253);
+    font-size: 32px;
+    color: blue;
+          
+}
+th {
+    padding: 20px;
+}
+tfoot {
+    text-align: center;
+    vertical-align: top;
+    background-color: rgb(7, 155, 253);
+    font-size: 32px;
+    color: blue;
+    height: 40vh;  
+}
+tbody {
+    border-spacing: 0;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+}
+p {
+    margin: 0px;
+}
+ul {
+    padding-inline-start: 30px;
+}
+img {
+ max-width: 208px;
+ width:100%;
+ float: left; 
+ padding-right: 10px; 
+}
+div {
+    margin: auto 40px;
+}
+.main {
+    background:
+    url('soccer-ball.svg')
+    repeat-y right
+    ;
+    background-size: 40px;
+      
+}
+.menu {
+    padding: 20px;
+    background-color: rgb(229, 255, 145);
+    vertical-align: top;
+}
+.foot {
+    padding: 20px;
+}
