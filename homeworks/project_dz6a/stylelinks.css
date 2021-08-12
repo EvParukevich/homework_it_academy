@@ -1,0 +1,62 @@
+.method_1 a {
+    color: green;
+    padding: 10px;
+}
+.method_1 a:hover {
+    color: red;
+}
+.method_1 a:nth-child(-n+4) {
+    border-right: solid red 5px;
+}
+.method_2 table a {
+    color: green;
+    padding: 10px;
+    
+    
+}
+.method_2 a:hover {
+    color: red;
+}
+.method_2 td {
+    padding: 0;
+}
+.method_2 table tbody > tr td:nth-child(-n+4) {
+    border-right: solid red 5px;
+}
+.method_3 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.method_3 a {
+    color: green;
+    padding: 10px;
+}
+.method_3 a:hover {
+    color: red;
+}
+.method_3 a {
+    border-right: solid red 5px;
+}
+.method_3 a:last-of-type{
+    border-right:none;
+}
+.method_4 a {
+    color: green;
+    padding: 10px;
+}
+.method_4 a:hover {
+    color: red;
+}
+.method_4 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.method_4 li{
+    float: left;
+    border-right:solid red 5px ;
+}
+.method_4 li+li+li+li+li {
+    border-right: none;
+}
